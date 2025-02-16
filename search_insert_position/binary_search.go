@@ -1,10 +1,6 @@
-package main
+package search_insert_position
 
-func main() {
-	searchInsert([]int{1, 2, 3}, 2)
-}
-
-func searchInsert(nums []int, target int) int {
+func SearchInsert(nums []int, target int) int {
 	low := 0
 	high := len(nums) - 1
 	for low <= high {
